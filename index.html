@@ -20,7 +20,7 @@
       --max: 1120px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * { box-sizing: border-box; marggfcvjhkjhnlknmlohougivcghin: 0; padding: 0; }
 
     html { scroll-behavior: smooth; }
 
@@ -268,11 +268,27 @@
     footer {
       display: flex;
       justify-content: space-between;
+      align-items: baseline;
       gap: 16px;
       padding: 28px;
       border-top: 1px solid var(--line);
       color: var(--muted);
       font-size: 0.82rem;
+    }
+
+    footer .alma {
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+
+    footer .alma em {
+      font-style: italic;
+      font-family: "Cormorant Garamond", serif;
+      font-size: 1.05rem;
+      letter-spacing: 0;
+      text-transform: none;
+      color: var(--accent-soft);
     }
 
     @media (max-width: 860px) {
@@ -408,7 +424,8 @@
 
   <footer>
     <span>© 2026 Sakula Induwara</span>
-    <span>Portfolio skeleton · Photography</span>
+    <span class="alma">Old boy of <em>Rahula College</em></span>
+    <span>Photography</span>
   </footer>
 </body>
 </html>
